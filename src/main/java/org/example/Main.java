@@ -1,16 +1,11 @@
 package org.example;
 
 public class Main {
-    private int var1,var2;
-    private double pi;
     //static method to add two numbers
     private static int addTwoNumber(int x, int y){
         return x + y;
     }
     public Main(int var1, int var2, double pi) { // Constructor
-        this.var1 = var1;
-        this.var2 = var2;
-        this.pi = pi;
     }
     //static method to calculate the area of circle
     private static double findAreaOfCircle(double radius){
